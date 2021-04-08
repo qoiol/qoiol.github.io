@@ -1,0 +1,15 @@
+.homelink{
+    background-color:yellow;
+}
+.infolink{
+    background-color: lightseagreen;
+    color:seashell;
+}
+.favlink{
+    background-color: lightcoral;
+    color:snow;
+}
+.playlistlink{
+    background-color: lightpink;
+    color:white;
+}

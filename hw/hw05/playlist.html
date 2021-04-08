@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="./hw05css.css">
+    <meta charset="UTF-8">
+    <title>Playlist</title>
+    <style>
+        h1 {
+            background-color: lightpink;
+            color: white;
+        }
+
+        #musiclist {
+            font-size: 100%;
+            float: left;
+            height: 640px;
+            width: 25%;
+            background-color: lavenderblush;
+        }
+
+        li {
+            font-family:"바탕";
+            color: orchid;
+            line-height: 2;
+        }
+
+        iframe {
+            float: left;
+            width: 35%;
+            height: 630px;
+            vertical-align: top;
+            border-color: lightpink;
+            border-width: 5px;
+            background-color: lavenderblush;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><i>&nbsp;PlayList</i></h1>
+    </header>
+
+    <section>
+        <article>
+
+            <span id="musiclist">
+                <ul>
+
+                    <li>라일락 | 아이유 <br>
+                        <a href="https://www.youtube.com/embed/04tYkKUPPv4" target="musicplay">재생</a>
+                        <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=33372781"
+                            target="lyricprint">가사</a>
+                    </li>
+
+                    <li>Don't Call Me | SHINee (샤이니)<br>
+                        <a href="https://www.youtube.com/embed/wSsQmJmydrI" target="musicplay">재생</a>
+                        <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=33305996"
+                            target="lyricprint">가사</a>
+                    </li>
+
+                    <li>On The Ground | 로제 (ROSÉ)<br>
+                        <a href="https://www.youtube.com/embed/jNYwgodbyNc" target="musicplay">재생</a>
+                        <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=33346446"
+                            target="lyricprint">가사</a>
+                    </li>
+
+                    <li>What Do I Call You | 태연 (TAEYEON)<br>
+                        <a href="https://www.youtube.com/embed/FFbvbMhrEdI" target="musicplay">재생</a>
+                        <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=33139117"
+                            target="lyricprint">가사</a>
+                    </li>
+                    <li>Black Mamba | aespa<br>
+                        <a href="https://www.youtube.com/embed/BL-aIpCLWnU" target="musicplay">재생</a>
+                        <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=33067476"
+                            target="lyricprint">가사</a>
+                    </li>
+                </ul>
+
+                <center>
+                    <a href="./hw05.html" target="_self" class="homelink">back to home</a>
+                </center>
+            </span>
+
+            <iframe src="./music.html" name="musicplay"></iframe>
+
+            <iframe src="./lyrics.html" name="lyricprint"></iframe>
+
+
+        </article>
+    </section>
+
+</body>
+
+</html>
