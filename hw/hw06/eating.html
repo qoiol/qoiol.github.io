@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>먹거리</title>
+    <style>
+        #grid {
+            display: grid;
+            grid-template-columns: 200px 600px;
+        }
+
+        div {
+            align-content: flex-start;
+            border-radius: 20px;
+            text-align: center;
+            border: 5px solid sienna;
+            background-color: rosybrown;
+            padding: 5px;
+            display: grid;
+            height: 500px;
+            margin-right:5px;
+        }
+
+        div.category {
+            text-align: center;
+            border: 5px solid sienna;
+            background-color: seashell;
+            font-weight: bold;
+            width: 150px;
+            display: grid;
+            border-radius: 20px;
+            height: fit-content;
+        }
+        iframe{
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>천안 먹거리</h1>
+    <section id="grid">
+
+
+        <div>
+            <a href="./turtle.html" target="menuviewer"><div class="category">거북이빵</div></a>
+            <a href="./walnut.html" target="menuviewer"><div class="category">호두과자</div></a>
+        </div>
+        <div>
+        <iframe name="menuviewer" src="./menu.html" frameborder="0"></iframe>
+    </div>
+    </section>
+</body>
+
+</html>
