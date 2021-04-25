@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="./hw07css.css">
+    <meta charset="UTF-8">
+    <title>소개</title>
+    <style>
+        nav {
+            float: left;
+            width: 300px;
+            height: 645px;
+            background-color: lightcyan;
+            padding-top: 30px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        div.button {
+            display: inline-block;
+            width: 250px;
+            border-radius: 40px;
+            border: 3px solid dodgerblue;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: lightblue;
+            box-shadow: 2px 2px 5px;
+        }
+
+        div.screen {
+            display: inline-block;
+            width: 1200px;
+            background-color: lightgrey;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+
+        iframe {
+            border-radius: 40px;
+            border: 5px solid deepskyblue;
+            width: 1050px;
+            height: 600px;
+            margin: 30px;
+            background-color: white;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fun in Cheonan</h1>
+    </header>
+    <nav>
+        <a href="http://its.cheonan.go.kr/main/main.do" target="infoviewer">
+            <div class="button">교통</div>
+        </a>
+        <a href="https://www.cheonan.go.kr/stat.do" target="infoviewer">
+            <div class="button">인구</div>
+        </a>
+    </nav>
+    <main>
+        <div class="screen">
+            <iframe name="infoviewer" src="./infopreview.html" frameborder="0"></iframe>
+        </div>
+    </main>
+</body>
+
+</html>

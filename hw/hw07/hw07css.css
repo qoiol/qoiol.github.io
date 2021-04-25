@@ -1,0 +1,68 @@
+ .thumbnail{
+            width:400px;
+            height:400px;
+            margin: 40px;
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border: 5px solid dodgerblue;
+
+        }
+.thumbnail.round{
+            border-radius: 20px;
+
+        }
+.thumbnail.circle{
+            border-radius:100%;
+        }
+div.category {
+            text-align: center;
+            border: 5px solid green;
+            background-color: lightgreen;
+            font-weight: bold;
+            width: 150px;
+            display: grid;
+            border-radius: 20px;
+            height: fit-content;
+        }
+h1 {
+            text-align: center;
+            font-size: 50px;
+            margin: 0 0 30px 0;
+            padding-bottom: 20px;
+            border-bottom: 3px solid dodgerblue;
+            color: deepskyblue;
+            font-weight: bold;
+        }
+#columns {
+            column-count: 3;
+            text-align: center;
+        }
+
+#columns figure {
+            width: 350px;
+            display: inline-block;
+            margin: 0;
+            margin-bottom: 15px;
+            border: 5px solid deepskyblue;
+            border-radius: 30px;
+            padding: 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2)
+        }
+
+#columns figure img {
+            width: 100%;
+            border-radius: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+#columns figure figcaption {
+            display:inline-block;
+            width: 250px;
+            padding: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            background-color: lightskyblue;
+            border-radius:20px;
+        }
